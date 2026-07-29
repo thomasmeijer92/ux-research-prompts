@@ -1,0 +1,93 @@
+# UX Research Prompts
+
+125 UX research recipes for Codex.
+
+This skill helps Codex choose a credible research method, create the actual research artifact, and keep evidence separate from assumptions. It covers 100 core recipes plus 25 recipes for mobile research, quantitative work, research operations, and accessibility.
+
+## What it can do
+
+- Plan discovery, interviews, usability tests, surveys, and mixed-method research.
+- Create screeners, interview guides, task scenarios, research briefs, and analysis plans.
+- Synthesize notes and transcripts into traceable themes, insights, opportunities, personas, and journeys.
+- Audit competitors with dated sources and explicit evidence gaps.
+- Turn findings into decision-ready reports, handoffs, workshops, and repository entries.
+- Check claims for bias, overreach, missing evidence, privacy risks, and accessibility gaps.
+
+Codex returns the finished artifact by default. Ask for a reusable prompt or template when that's what you need.
+
+## Install
+
+Clone the repository into your Codex skills directory:
+
+```bash
+git clone https://github.com/thomasmeijer92/ux-research-prompts.git "${CODEX_HOME:-$HOME/.codex}/skills/ux-research-prompts"
+```
+
+Start a new Codex task, then call the skill directly:
+
+```text
+Use $ux-research-prompts to create a usability test plan for our onboarding flow.
+```
+
+You can also invoke it naturally:
+
+```text
+Synthesize these interview notes into evidence-backed insights and show what we still can't conclude.
+```
+
+## How it works
+
+The skill starts with the product decision, checks what evidence exists, and selects the smallest credible method. It labels the working mode as:
+
+- **Evidence-backed:** based on supplied research data.
+- **Desk research:** based on current public sources.
+- **Research plan:** research that still needs to happen.
+- **Concept or proto artifact:** assumption-based work that still needs validation.
+
+Before returning an artifact, the skill checks that the method fits the decision, claims trace back to evidence, bias and privacy risks are flagged, confidence is stated, and accessibility is covered.
+
+## Research integrity
+
+The skill won't invent participants, quotes, findings, sample sizes, demographics, sources, benchmarks, or confidence.
+
+It keeps `Observed`, `Inferred`, `Assumed`, and `Needs validation` separate. Qualitative coverage is reported as source counts rather than population percentages. Personas, journeys, competitor claims, and quantitative conclusions stay tied to the evidence available.
+
+AI can organize and challenge research evidence. Real participants and real behavior remain the source of user insight.
+
+## Repository structure
+
+```text
+.
+├── SKILL.md
+├── agents/
+│   └── openai.yaml
+├── references/
+│   ├── method-selection-guide.md
+│   ├── methodology-sources.md
+│   ├── prompt-catalog.md
+│   └── prompt-library.md
+└── sources/
+    └── notion-original-skill.md
+```
+
+- [`SKILL.md`](SKILL.md) contains the workflow, routing, guardrails, and output rules.
+- [`prompt-catalog.md`](references/prompt-catalog.md) indexes all 125 recipes.
+- [`prompt-library.md`](references/prompt-library.md) contains detailed execution patterns.
+- [`method-selection-guide.md`](references/method-selection-guide.md) helps choose a method by decision, risk, and appetite.
+- [`notion-original-skill.md`](sources/notion-original-skill.md) preserves the original Notion skill snapshot.
+
+## Source
+
+The original prompt pack was created by [Thomas Meijer](https://github.com/thomasmeijer92) and is available in [Notion](https://app.notion.com/p/30bd0dbafd848062a8b7ff26630e46c7).
+
+The current Codex skill routes all 125 recipes and adds instructions for checking evidence, protecting privacy, covering accessibility, handling quantitative claims, and planning validation.
+
+## License
+
+This work is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+
+You can copy, share, adapt, and use it commercially. Give appropriate credit to Thomas Meijer, link to the license, and state whether you changed the material. Don't present the original or an adapted version as work you created from scratch, and don't imply endorsement. Don't add legal or technical restrictions that stop others from using the material under the same terms.
+
+Suggested attribution:
+
+> Based on [UX Research Prompts](https://github.com/thomasmeijer92/ux-research-prompts) by Thomas Meijer, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes: [describe your changes].
