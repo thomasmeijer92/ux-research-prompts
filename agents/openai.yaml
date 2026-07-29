@@ -1,0 +1,4 @@
+interface:
+  display_name: "UX Research Prompts"
+  short_description: "Plan and execute rigorous UX research"
+  default_prompt: "Use $ux-research-prompts to choose the right method and create a decision-ready research artifact."
