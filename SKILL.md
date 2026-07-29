@@ -114,4 +114,4 @@ Rules: Separate observed, inferred, assumed, and needs validation. Do not invent
 
 ## Keep Source Claims Accurate
 
-The canonical Notion pack contains 100 core prompts plus 25 mobile, quantitative, research-operations, and accessibility prompts as of February 2026. The local catalog preserves all 125 recipe names and routing. Detailed local templates are intentionally compact and strengthened with evidence, privacy, and validation rules; consult the Notion source only when exact source wording or later updates matter.
+The Contra product page is the canonical public source. The included Notion snapshot contains 100 core prompts plus 25 mobile, quantitative, research-operations, and accessibility prompts as captured in February 2026. The local catalog preserves all 125 recipe names and routing. Detailed local templates are intentionally compact and strengthened with evidence, privacy, and validation rules. Check the Contra product page for public product updates and the snapshot when exact captured wording matters.

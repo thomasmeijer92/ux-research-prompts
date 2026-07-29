@@ -98,7 +98,9 @@ Each example uses fictional data and shows the evidence mode, decision, artifact
 
 ## Source
 
-The original prompt pack was created by [Thomas Meijer](https://github.com/thomasmeijer92) and is available in [Notion](https://app.notion.com/p/30bd0dbafd848062a8b7ff26630e46c7).
+The public product source is [UX Research Prompts: 100+ AI-Ready Templates for user research](https://contra.com/products/388QJrXC-ux-research-prompts-100-ai-ready-templates-for-user-research), created by [Thomas Meijer](https://github.com/thomasmeijer92).
+
+The product's original Notion material is preserved in this repository as [`notion-original-skill.md`](sources/notion-original-skill.md). The snapshot keeps the source material inspectable without treating the Notion page as the public product URL.
 
 The current Codex skill routes all 125 recipes and adds instructions for checking evidence, protecting privacy, covering accessibility, handling quantitative claims, and planning validation.
 
@@ -110,4 +112,4 @@ You can copy, share, adapt, and use it commercially. Give appropriate credit to 
 
 Suggested attribution:
 
-> Based on [UX Research Prompts](https://github.com/thomasmeijer92/ux-research-prompts) by Thomas Meijer, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes: [describe your changes].
+> Based on [UX Research Prompts: 100+ AI-Ready Templates for user research](https://contra.com/products/388QJrXC-ux-research-prompts-100-ai-ready-templates-for-user-research) by Thomas Meijer, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes: [describe your changes].

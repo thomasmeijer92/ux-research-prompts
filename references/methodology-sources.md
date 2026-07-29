@@ -4,9 +4,9 @@ Use this file when the user asks where a method comes from, wants citations, or 
 
 ## Canonical Prompt Pack
 
-- Thomas Meijer, [UX Research Prompts](https://app.notion.com/p/30bd0dbafd848062a8b7ff26630e46c7) — 100 core prompts plus 25 mobile, quantitative, research-operations, and accessibility prompts as of February 2026.
+- Thomas Meijer, [UX Research Prompts: 100+ AI-Ready Templates for user research](https://contra.com/products/388QJrXC-ux-research-prompts-100-ai-ready-templates-for-user-research), the canonical public product source.
 
-The Notion pack is the source of truth for prompt inventory and exact source wording. The local skill adapts that material for agent execution and adds evidence, privacy, and validation guardrails.
+The included Notion snapshot contains 100 core prompts plus 25 mobile, quantitative, research-operations, and accessibility prompts as captured in February 2026. It preserves the prompt inventory and exact captured wording. The local skill adapts that material for agent execution and adds evidence, privacy, and validation guardrails.
 
 ## Methodology Lineage
 

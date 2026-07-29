@@ -1,10 +1,10 @@
 # Prompt Catalog
 
-Use this catalog to route a request to the closest recipe. The canonical pack contains 100 core recipes and 25 bonus recipes. Recipe IDs preserve the Notion source numbering.
+Use this catalog to route a request to the closest recipe. The included Notion source snapshot contains 100 core recipes and 25 bonus recipes. Recipe IDs preserve the source numbering.
 
 Do not reproduce every recipe mechanically. Combine only recipes that answer distinct parts of the same decision, and apply the evidence and quality rules from `SKILL.md`.
 
-## Discovery — 1-15
+## Discovery: 1-15
 
 | ID | Recipe | Primary output |
 |---|---|---|
@@ -24,7 +24,7 @@ Do not reproduce every recipe mechanically. Combine only recipes that answer dis
 | 14 | Research Brief | one-page stakeholder alignment brief |
 | 15 | Risk Assessment | recruitment, bias, alignment, inconclusive-result, and schedule risks |
 
-## Interviews — 16-31
+## Interviews: 16-31
 
 | ID | Recipe | Primary output |
 |---|---|---|
@@ -45,7 +45,7 @@ Do not reproduce every recipe mechanically. Combine only recipes that answer dis
 | 30 | Interview Debrief | immediate observations, surprises, missed questions, and next hypotheses |
 | 31 | Participant Comparison | aligned and divergent contexts without overgeneralizing |
 
-## Synthesis — 32-48
+## Synthesis: 32-48
 
 | ID | Recipe | Primary output |
 |---|---|---|
@@ -67,7 +67,7 @@ Do not reproduce every recipe mechanically. Combine only recipes that answer dis
 | 47 | Insight Statement Formatter | concise headline, statement, evidence, and implication |
 | 48 | Synthesis Workshop Facilitator | pre-work, agenda, activities, disagreement handling, and output |
 
-## Personas, Journeys, and JTBD — 49-65
+## Personas, Journeys, and JTBD: 49-65
 
 | ID | Recipe | Primary output |
 |---|---|---|
@@ -89,7 +89,7 @@ Do not reproduce every recipe mechanically. Combine only recipes that answer dis
 | 64 | Journey Comparison Analyzer | shared versus segment-specific paths and implications |
 | 65 | Anti-Persona Creator | evidence-based non-fit boundaries and ethical redirection |
 
-## Competitive Intelligence — 66-82
+## Competitive Intelligence: 66-82
 
 | ID | Recipe | Primary output |
 |---|---|---|
@@ -111,7 +111,7 @@ Do not reproduce every recipe mechanically. Combine only recipes that answer dis
 | 81 | Feature Prioritization via Competitor Gap | table stakes, leapfrogs, differentiation, and no-bet areas |
 | 82 | Competitor UX Audit From Notes | audit grounded in supplied hands-on observations |
 
-## Reporting and Communication — 83-100
+## Reporting and Communication: 83-100
 
 | ID | Recipe | Primary output |
 |---|---|---|
@@ -134,7 +134,7 @@ Do not reproduce every recipe mechanically. Combine only recipes that answer dis
 | 99 | Research Socialization Plan | audience, format, sequence, pushback, and sustained visibility |
 | 100 | Workshop Facilitation Guide | pre-work, agenda, discussion, activities, decisions, and actions |
 
-## Mobile, Quantitative, Operations, and Accessibility — M1-M25
+## Mobile, Quantitative, Operations, and Accessibility: M1-M25
 
 | ID | Recipe | Primary output |
 |---|---|---|
