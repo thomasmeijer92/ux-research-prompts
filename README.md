@@ -1,5 +1,7 @@
 # UX Research Prompts
 
+[![Validate skill](https://github.com/thomasmeijer92/ux-research-prompts/actions/workflows/validate-skill.yml/badge.svg)](https://github.com/thomasmeijer92/ux-research-prompts/actions/workflows/validate-skill.yml)
+
 125 UX research recipes for Codex.
 
 This skill helps Codex choose a credible research method, create the actual research artifact, and keep evidence separate from assumptions. It covers 100 core recipes plus 25 recipes for mobile research, quantitative work, research operations, and accessibility.
@@ -48,24 +50,41 @@ Before returning an artifact, the skill checks that the method fits the decision
 
 ## Research integrity
 
-The skill won't invent participants, quotes, findings, sample sizes, demographics, sources, benchmarks, or confidence.
+The workflow explicitly prohibits invented participants, quotes, findings, sample sizes, demographics, sources, benchmarks, and confidence.
 
 It keeps `Observed`, `Inferred`, `Assumed`, and `Needs validation` separate. Qualitative coverage is reported as source counts rather than population percentages. Personas, journeys, competitor claims, and quantitative conclusions stay tied to the evidence available.
 
 AI can organize and challenge research evidence. Real participants and real behavior remain the source of user insight.
 
+## Examples
+
+Each example uses fictional data and shows the evidence mode, decision, artifact, limitations, and next validation step:
+
+- [Mobile onboarding usability test](examples/usability-test-plan.md)
+- [Interview synthesis with contradictory evidence](examples/interview-synthesis.md)
+- [2-week discovery research plan](examples/discovery-research-plan.md)
+
 ## Repository structure
 
 ```text
 .
+├── .github/
+│   └── workflows/
+│       └── validate-skill.yml
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
+├── examples/
+│   ├── discovery-research-plan.md
+│   ├── interview-synthesis.md
+│   └── usability-test-plan.md
 ├── references/
 │   ├── method-selection-guide.md
 │   ├── methodology-sources.md
 │   ├── prompt-catalog.md
 │   └── prompt-library.md
+├── scripts/
+│   └── validate_skill.py
 └── sources/
     └── notion-original-skill.md
 ```
@@ -75,6 +94,7 @@ AI can organize and challenge research evidence. Real participants and real beha
 - [`prompt-library.md`](references/prompt-library.md) contains detailed execution patterns.
 - [`method-selection-guide.md`](references/method-selection-guide.md) helps choose a method by decision, risk, and appetite.
 - [`notion-original-skill.md`](sources/notion-original-skill.md) preserves the original Notion skill snapshot.
+- [`validate_skill.py`](scripts/validate_skill.py) checks metadata, catalog coverage, links, example labels, and public-copy rules.
 
 ## Source
 
