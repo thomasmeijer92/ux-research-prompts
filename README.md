@@ -106,10 +106,6 @@ The current Codex skill routes all 125 recipes and adds instructions for checkin
 
 ## License
 
-This work is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+The contents of this GitHub repository are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 
-You can copy, share, adapt, and use it commercially. Give appropriate credit to Thomas Meijer, link to the license, and state whether you changed the material. Don't present the original or an adapted version as work you created from scratch, and don't imply endorsement. Don't add legal or technical restrictions that stop others from using the material under the same terms.
-
-Suggested attribution:
-
-> Based on [UX Research Prompts: 100+ AI-Ready Templates for user research](https://contra.com/products/388QJrXC-ux-research-prompts-100-ai-ready-templates-for-user-research) by Thomas Meijer, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes: [describe your changes].
+You can copy, share, adapt, and use it commercially. Give appropriate credit to Thomas Meijer, link to the license, and state whether you changed the material. Don't present the original or an adapted version as work you created from scratch, and don't imply endorsement. Don't apply legal terms or technological measures that legally restrict others from doing anything the license permits.
