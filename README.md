@@ -4,7 +4,7 @@
 
 125 UX research recipes for Codex.
 
-This skill helps Codex choose a credible research method, create the actual research artifact, and keep evidence separate from assumptions. It covers 100 core recipes plus 25 recipes for mobile research, quantitative work, research operations, and accessibility.
+This skill helps your LLM agent choose a credible research method, create the actual research artifact, and keep evidence separate from assumptions. It covers 100 core recipes plus 25 recipes for mobile research, quantitative work, research operations, and accessibility.
 
 ## What it can do
 
